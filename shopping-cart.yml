@@ -10,6 +10,6 @@ eureka:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+      defaultZone: http://localhost:${eureka.instance.port}/eureka/
     server:
       wait-time-in-ms-when-sync-empty: 3000    
